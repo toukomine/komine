@@ -1,42 +1,12 @@
 <!DOCTYPE html>
 <html>
     <header>
-        <link rel="stylesheet" href="/plugs/live2d/css/live2d.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
     </header>
 
     <script type="text/javascript" src="plugs/jQuery/jquery-3.6.0.js"></script>
-
-    <style type="text/css">
-        .message{
-            background-color: #39c5bb;
-            width: 200px;
-            height: 50px;
-            border-radius: 20;
-        }
-    </style>
-
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
     <body>
-        <span>index</span>
-
-        <div id="landlord">
-            <!-- live2d模型消息框 -->
-            <div class="message" style="opacity:0"></div>
-            <!-- live2d模型 -->
-            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-            <div class="hide-button">隐藏</div>
-        </div>
+        
     </body>
-
-
-    <script type="text/javascript">
-        var message_Path = '/live2d/'
-        var home_Path = 'https://toukomine.github.io/komine/'
-    </script>
-    <script type="text/javascript" src="plugs/live2d/js/live2d.js"></script>
-    <script type="text/javascript" src="plugs/live2d/js/message.js"></script>
-    <script type="text/javascript">
-        window.onload = function(){
-            loadlive2d("live2d", "https://toukomine.github.io/komine/plugs/live2d/model/tia/model.json");
-        }
-    </script>
 </html>
