@@ -6,6 +6,17 @@
 
     <script type="text/javascript" src="plugs/jQuery/jquery-3.6.0.js"></script>
 
+    <body>
+        <span>index</span>
+
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+            <div class="hide-button">隐藏</div>
+        </div>
+    </body>
+
+
     <script type="text/javascript">
         var message_Path = '/live2d/'
         var home_Path = 'https://toukomine.github.io/komine/'  //此处修改为你的域名，必须带斜杠
@@ -17,14 +28,4 @@
             loadlive2d("live2d", "https://toukomine.github.io/komine/plugs/live2d/model/tia/model.json");
         }
     </script>
-    
-    <body>
-        <span>index</span>
-
-        <div id="landlord">
-            <div class="message" style="opacity:0"></div>
-            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-            <div class="hide-button">隐藏</div>
-        </div>
-    </body>
 </html>
